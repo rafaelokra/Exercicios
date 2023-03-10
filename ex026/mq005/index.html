@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>RBF MOTOS </h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens"  >
+            <ul>
+                <li><a href="#">Opçao 1</a></li>
+                <li><a href="#">Opçao 2</a></li>
+                <li><a href="#">Opçao 3</a></li>
+                <li><a href="#">Opçao 4</a></li>
+                <li><a href="#">Opçao 5</a></li>
+
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>"Você sabia que a<a href="https://www.instagram.com/rbf_motos/" target="_blank"> RBF Motos </a> é muito mais do que uma loja de peças e acessórios? Nós somos apaixonados por motos e fazemos de tudo para proporcionar a melhor experiência para nossos clientes.</p>
+            <p>Nosso objetivo é oferecer soluções completas para você, desde a escolha das peças até a realização de serviços especializados em motocicletas. Contamos com uma equipe técnica altamente capacitada e equipamentos de última geração para garantir a qualidade e segurança em todos os nossos serviços.</p>
+            <p>Além disso, aqui na <q>RBF MOTOS</q> , você encontra as melhores marcas e modelos de peças e acessórios para sua moto, sempre com um preço justo e competitivo.</p>
+            <p>Se você é apaixonado por motos assim como nós, venha nos visitar e descubra tudo que podemos oferecer para sua moto! Estamos sempre prontos para atendê-lo com a atenção e dedicação que você merece."</p>
+    
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+
+            } else {
+                itens.style.display = 'block'
+            }
+            
+        }
+    </script>
+</body>
+</html>
