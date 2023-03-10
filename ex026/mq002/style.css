@@ -1,0 +1,45 @@
+img{
+    width: 264px;
+  
+  }
+  nav {
+    background-color:;
+    padding: 3px;
+    box-shadow: 1px 1px 1px 
+    
+  }
+  
+  nav > a {
+    text-decoration:none ;
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  
+  
+  
+   
+  
+  
+  
+  
+   a:hover{
+    color: rgba(150, 151, 56, 0.971);
+    position: relative;
+    transition: 1.5s all ease;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+   a::before{
+    content: '';
+    background-color: rgb(178, 255, 127);
+    height: 100%;
+    position: absolute;
+    top: 0;
+   }
+  
+   
+  
+  
+    
